@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "task-manager": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/task-manager/dist/index.js"]
+    }
+  }
+}
